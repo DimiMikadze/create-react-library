@@ -39,7 +39,7 @@ All library files are located inside `src/lib`
 
 ## Demo app
 
-Is located inside `src/demo` direcoty, here you can test your library while developing.
+Is located inside `src/demo` directory, here you can test your library while developing
 
 ## Testing
 

@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/Rubbby/create-react-library.svg?branch=master)](https://travis-ci.org/Rubbby/create-react-library)
-
-# React NPM library starter kit
+# React NPM library starter kit [![Build Status](https://travis-ci.org/Rubbby/create-react-library.svg?branch=master)](https://travis-ci.org/Rubbby/create-react-library)
 
 based on Facebook's <a href="https://github.com/facebookincubator/create-react-app" target="_blank">Create react app</a>
 

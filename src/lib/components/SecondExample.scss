@@ -1,0 +1,31 @@
+$text-color: #4b5658;
+$github-color: #3079ab;
+
+.SecondExample {
+  text-align: center;
+  width: 100%;
+}
+
+.SecondExample-text {
+  color: $text-color;
+  font-size: 20px;
+}
+
+.SecondExample-link {
+  color: $text-color;
+  text-decoration: none;
+
+  &:hover {
+    border-bottom: 1px solid $text-color;
+  }
+}
+
+.SecondExample-github-link {
+  color: $github-color;
+  font-size: 22px;
+  text-decoration: none;
+
+  &:hover {
+    border-bottom: 1px solid $github-color;
+  }
+}

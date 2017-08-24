@@ -54,3 +54,7 @@ Produces production version of library under the `build` folder.
 ## Publish library
 
 `npm publish`
+
+## Example library built with this starter kit
+
+https://github.com/Rubbby/react-under-construction

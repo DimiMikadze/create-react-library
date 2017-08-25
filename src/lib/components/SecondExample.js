@@ -18,7 +18,7 @@ const SecondExample = () => (
       className="SecondExample-github-link"
       target="_blank"
       rel="noopener noreferrer"
-      href="https://github.com/Rubbby/create-react-libraries"
+      href="https://github.com/Rubbby/create-react-library"
     >
       Documentation
     </a>

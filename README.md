@@ -61,4 +61,4 @@ Produces production version of library under the `build` folder.
 
 ## Example library built with this starter kit
 
-https://github.com/Udilia/react-under-construction
+https://github.com/UdiliaInc/react-under-construction

@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rubbby/create-react-library.git"
+    "url": "git+https://github.com/udiliaInc/create-react-library.git"
   },
-  "author": "Dimitri Mikadze <dimitri@rubbby.com>",
+  "author": "Dimitri Mikadze <dimitri@udilia.com>",
   "bugs": {
-    "url": "https://github.com/rubbby/create-react-library/issues"
+    "url": "https://github.com/udiliaInc/create-react-library/issues"
   },
-  "homepage": "https://github.com/rubbby/create-react-library#readme",
+  "homepage": "https://github.com/udiliaInc/create-react-library#readme",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "7.1.2",

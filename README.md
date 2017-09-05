@@ -1,8 +1,8 @@
 # React NPM library starter kit
 
-[![Build Status](https://travis-ci.org/Rubbby/create-react-library.svg?branch=master)](https://travis-ci.org/Rubbby/create-react-library)
-[![David](https://img.shields.io/david/Rubbby/create-react-library.svg)]()
-[![David](https://img.shields.io/david/dev/Rubbby/create-react-library.svg)]()
+[![Build Status](https://travis-ci.org/udiliaInc/create-react-library.svg?branch=master)](https://travis-ci.org/udiliaInc/create-react-library)
+[![Dependencies](https://img.shields.io/david/udiliaInc/create-react-library.svg)]()
+[![Dev Dependencies](https://img.shields.io/david/dev/udiliaInc/create-react-library.svg)]()
 
 based on Facebook's <a href="https://github.com/facebookincubator/create-react-app" target="_blank">Create react app</a>
 
@@ -23,7 +23,7 @@ Moved all dependencies to dev dependencies because we don't need extra dependenc
 Clone repo
 
 ````
-git clone https://github.com/rubbby/create-react-library.git
+git clone https://github.com/udiliaInc/create-react-library.git
 ````
 
 Install dependencies

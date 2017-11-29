@@ -27,6 +27,13 @@ module.exports = {
   module: {
     strictExportPresence: true,
     rules: [
+      //image file loader
+      {
+        test: /\.(png|PNG|jpg|JPG|svg|SVG)$/,
+        use: {
+          loader: "url-loader",
+        },
+      },
       {
         test: /\.(js|jsx)$/,
         enforce: 'pre',

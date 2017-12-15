@@ -104,14 +104,7 @@ module.exports = {
   },
   module: {
     strictExportPresence: true,
-    rules: [
-      //image file loader
-      {
-        test: /\.(png|PNG|jpg|JPG|svg|SVG)$/,
-        use: {
-          loader: "url-loader",
-        },
-      },
+    rules: [ 
       // TODO: Disable require.ensure as it's not a standard language feature.
       // We are waiting for https://github.com/facebookincubator/create-react-app/issues/2176.
       // { parser: { requireEnsure: false } },

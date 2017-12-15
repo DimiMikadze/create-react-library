@@ -26,14 +26,7 @@ module.exports = {
   },
   module: {
     strictExportPresence: true,
-    rules: [
-      //image file loader
-      {
-        test: /\.(png|PNG|jpg|JPG|svg|SVG)$/,
-        use: {
-          loader: "url-loader",
-        },
-      },
+    rules: [ 
       {
         test: /\.(js|jsx)$/,
         enforce: 'pre',
@@ -53,14 +46,15 @@ module.exports = {
         // match the requirements. When no loader matches it will fall
         // back to the "file" loader at the end of the loader list.
         oneOf: [
-          // "url" loader works just like "file" loader but it also embeds
-          // assets smaller than specified size as data URLs to avoid requests.
+          // "url" loader works like "file" loader except that it embeds assets
+          // smaller than specified limit in bytes as data URLs to avoid requests.
+          // A missing `test` is equivalent to a match.
           {
             test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/, /\.svg$/],
             loader: require.resolve('url-loader'),
             options: {
               limit: 10000,
-              name: '[name].[ext]',
+              name: 'static/media/[name].[hash:8].[ext]',
             },
           },
           // Process JS with Babel.

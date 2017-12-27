@@ -4,7 +4,7 @@
 
 ### News
 
-We have decided to track `create-react-app` and constantly update our NPM library starter with the updates of `create-react-app`
+We have decided to track and follow philosophy of `create-react-app` and constantly update our NPM library starter with the updates of `create-react-app` 
 
 ### Breaking
 

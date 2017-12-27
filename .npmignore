@@ -21,4 +21,5 @@ src
 scripts
 config
 .travis.yml
-.CHANGELOG.md
+CHANGELOG.md
+README.md

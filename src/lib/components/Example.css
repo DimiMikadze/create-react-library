@@ -1,0 +1,11 @@
+.Example {
+  margin-top: 60px;
+  text-align: center;
+  width: 100%;
+}
+
+.Example-text {
+  color: #333;
+  font-size: 36px;
+  font-weight: 300;
+}

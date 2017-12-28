@@ -31,7 +31,7 @@ if (env.stringified['process.env'].NODE_ENV !== '"production"') {
 }
 
 // Note: defined here because it will be used more than once.
-const cssFilename = 'index.css';
+const cssFilename = 'css/index.css';
 
 // ExtractTextPlugin expects the build output to be flat.
 // (See https://github.com/webpack-contrib/extract-text-webpack-plugin/issues/27)
@@ -126,7 +126,7 @@ module.exports = {
             loader: require.resolve('url-loader'),
             options: {
               limit: 10000,
-              name: '[name].[ext]',
+              name: 'media/[name].[ext]',
             },
           },
           // Process JS with Babel.
@@ -210,7 +210,7 @@ module.exports = {
             // by webpacks internal loaders.
             exclude: [/\.js$/, /\.html$/, /\.json$/],
             options: {
-              name: '[name].[ext]',
+              name: 'media/[name].[ext]',
             },
           },
           // ** STOP ** Are you adding a new loader?

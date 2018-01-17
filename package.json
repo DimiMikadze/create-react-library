@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/udiliaInc/create-react-library.git"
+    "url": "git+https://github.com/DimitriMikadze/create-react-library.git"
   },
-  "author": "Dimitri Mikadze <dimitri@udilia.com>",
+  "author": "Dimitri Mikadze <dimitrimikadze@gmail.com>",
   "bugs": {
-    "url": "https://github.com/udiliaInc/create-react-library/issues"
+    "url": "https://github.com/DimitriMikadze/create-react-library/issues"
   },
-  "homepage": "https://github.com/udiliaInc/create-react-library#readme",
+  "homepage": "https://github.com/DimitriMikadze/create-react-library#readme",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {

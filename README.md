@@ -62,3 +62,4 @@ Produces production version of library under the `build` folder.
 ## Example library built with this starter kit
 
 https://github.com/DimitriMikadze/react-under-construction
+https://github.com/isaurssaurav/react-pagination

@@ -1,8 +1,8 @@
 # React NPM library starter kit
 
-[![Build Status](https://travis-ci.org/DimitriMikadze/create-react-library.svg?branch=master)](https://travis-ci.org/DimitriMikadze/create-react-library)
-[![Dependencies](https://img.shields.io/david/DimitriMikadze/create-react-library.svg)]()
-[![Dev Dependencies](https://img.shields.io/david/dev/DimitriMikadze/create-react-library.svg)]()
+[![Build Status](https://travis-ci.org/DimiMikadze/create-react-library.svg?branch=master)](https://travis-ci.org/DimiMikadze/create-react-library)
+[![Dependencies](https://img.shields.io/david/DimiMikadze/create-react-library.svg)]()
+[![Dev Dependencies](https://img.shields.io/david/dev/DimiMikadze/create-react-library.svg)]()
 
 based on Facebook's <a href="https://github.com/facebookincubator/create-react-app" target="_blank">Create react app</a>.
 We are constantly updating repository with the updates of `create-react-app`, so we have all new features and bug fixes of it.
@@ -23,7 +23,7 @@ Moved all dependencies to dev dependencies because we don't need extra dependenc
 Clone repo
 
 ````
-git clone https://github.com/DimitriMikadze/create-react-library.git
+git clone https://github.com/DimiMikadze/create-react-library.git
 ````
 
 Install dependencies
@@ -61,4 +61,4 @@ Produces production version of library under the `build` folder.
 
 ## Example library built with this starter kit
 
-https://github.com/DimitriMikadze/react-under-construction
+https://github.com/DimiMikadze/react-under-construction

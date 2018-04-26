@@ -5,7 +5,8 @@ const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const InterpolateHtmlPlugin = require('react-dev-utils/InterpolateHtmlPlugin');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+const InterpolateHtmlPlugin = require('interpolate-html-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const eslintFormatter = require('react-dev-utils/eslintFormatter');
 const ModuleScopePlugin = require('react-dev-utils/ModuleScopePlugin');
@@ -228,26 +229,28 @@ module.exports = {
     // if (process.env.NODE_ENV === 'production') { ... }. See `./env.js`.
     // It is absolutely essential that NODE_ENV was set to production here.
     // Otherwise React will be compiled in the very slow development mode.
-    new InterpolateHtmlPlugin(env.raw),
     // Generates an `index.html` file with the <script> injected.
     new HtmlWebpackPlugin({
       inject: true,
       template: paths.appHtml
     }),
+    new InterpolateHtmlPlugin(env.raw),
     // Add module names to factory functions so they appear in browser profiler.
     new webpack.NamedModulesPlugin(),
     new webpack.DefinePlugin(env.stringified),
     // Minify the code.
-    new webpack.optimize.UglifyJsPlugin({
-      compress: false,
-      mangle: {
-        safari10: true
-      },
-      output: {
-        comments: false,
-        // Turned on because emoji and regex is not minified properly using default
-        // https://github.com/facebookincubator/create-react-app/issues/2488
-        ascii_only: true
+    new UglifyJsPlugin({
+      uglifyOptions: {
+        compress: false,
+        mangle: {
+          safari10: true
+        },
+        output: {
+          comments: false,
+          // Turned on because emoji and regex is not minified properly using default
+          // https://github.com/facebookincubator/create-react-app/issues/2488
+          ascii_only: true
+        }
       },
       sourceMap: shouldUseSourceMap
     }),

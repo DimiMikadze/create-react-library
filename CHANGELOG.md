@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0 ( April 26, 2019 )
+
+- Updated to `create-react-app` version 3.0
+
 ## 2.0 ( November 25, 2018 )
 
 - Updated to `create-react-app` version 2.0

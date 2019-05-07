@@ -59,6 +59,14 @@ Produces production version of library under the `build` folder.
 
 `npm publish`
 
+## Troubleshooting
+
+#### Usage of other libraries within your library
+
+- Add the library as a peer dependency in package.json (effectively requiring the calling project to provide this dependency)
+- Add the library as a dev dependency in package.json (effectively allowing this library to successfully build without complaining about not having this dependency)
+- Add the library to the externals config in your webpack.config file(s). By default, only react and react-dom are there, meaning that those are the only two libraries that you can use within your new shared library.
+
 ## Example library built with this starter kit
 
 https://github.com/DimiMikadze/react-under-construction

@@ -163,7 +163,9 @@ module.exports = function(webpackEnv) {
       filename: (isEnvDemo || isEnvProduction)
         ? 'index.js'
         : isEnvDevelopment && 'static/js/bundle.js', // CRL: update output.filename
+      library: 'mylib', // CRL: add output.library (name for this export)
       libraryTarget: (isEnvDemo || isEnvProduction) ? 'umd' : undefined,  // CRL: Add output.libraryTarget
+      umdNamedDefine: true, // CRL: Add output.umdNamedDefine (control what webpack injects)
       // TODO: remove this when upgrading to webpack 5
       futureEmitAssets: true,
       // There are also additional JS chunk files if you use code splitting.

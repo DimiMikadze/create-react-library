@@ -73,25 +73,27 @@ module.exports = {
   appDemoBuild: resolveApp('demo'), // CRL: Added for demo purposes
   appPublic: resolveApp('public'),
   appHtml: resolveApp('public/index.html'),
-  appIndexJs: resolveApp('src/demo/index.js'), // CRL: Updated for demo purposes
+  appIndexJs: resolveModule(resolveApp, 'src/demo/index'), // CRL: Updated for demo purposes
   appPackageJson: resolveApp('package.json'),
   appSrc: resolveApp('src'),
   appTsConfig: resolveApp('tsconfig.json'),
   appJsConfig: resolveApp('jsconfig.json'),
   yarnLockFile: resolveApp('yarn.lock'),
-  testsSetup: resolveApp('src/setupTests.js'),
+  testsSetup: resolveModule(resolveApp, 'src/setupTests'),
   proxySetup: resolveApp('src/setupProxy.js'),
   appNodeModules: resolveApp('node_modules'),
   publicUrl: getPublicUrl(resolveApp('package.json')),
   servedPath: getServedPath(resolveApp('package.json')),
 
   // CRL: New paths for demo build
-  appDemoIndexJs: resolveApp('src/demo/index.js'),
+  appDemoIndexJs: resolveModule(resolveApp, 'src/demo/index'),
   appDemoSrc: resolveApp('src/demo'),
 
   // CRL: New paths for library
-  appLibIndexJs: resolveApp('src/lib/index.js'),
+  appLibIndexJs: resolveModule(resolveApp, 'src/lib/index'),
   appLibSrc: resolveApp('src/lib'),
 };
+
+
 
 module.exports.moduleFileExtensions = moduleFileExtensions;

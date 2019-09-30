@@ -39,7 +39,7 @@ const WARN_AFTER_CHUNK_GZIP_SIZE = 1024 * 1024;
 const isInteractive = process.stdout.isTTY;
 
 // Warn and crash if required files are missing
-if (!checkRequiredFiles([paths.appDemoIndexJs])) { // CRL: Updated with demo index file
+if (!checkRequiredFiles([paths.appHtml, paths.appDemoIndexJs])) { // CRL: Updated with demo index file
   process.exit(1);
 }
 
@@ -132,7 +132,7 @@ function build(previousFileSizes) {
     console.log();
   }
 
-  console.log('Creating a build of the demo app...');
+  console.log('Creating a build of the demo app...'); // CRL - Updated log message
 
   const compiler = webpack(config);
   return new Promise((resolve, reject) => {
@@ -186,5 +186,6 @@ function build(previousFileSizes) {
 function copyPublicFolder() {
   fs.copySync(paths.appPublic, paths.appDemoBuild, {  // CRL: Updated with demo build path
     dereference: true,
+    filter: file => file !== paths.appHtml,
   });
 }

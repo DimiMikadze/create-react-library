@@ -24,4 +24,5 @@ demo
 .travis.yml
 CHANGELOG.md
 README.md
+UPGRADE.md
 .storybook

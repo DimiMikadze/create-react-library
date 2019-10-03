@@ -1,5 +1,10 @@
 # Changelog
 
+## 3.1.2 ( October 3, 2019 )
+
+- Updated to `create-react-app` version 3.1.2
+- Fixes [#42](https://github.com/DimiMikadze/create-react-library/issues/42), [#58](https://github.com/DimiMikadze/create-react-library/issues/58), [#59](https://github.com/DimiMikadze/create-react-library/issues/59)
+
 ## 3.0 ( April 26, 2019 )
 
 - Updated to `create-react-app` version 3.0

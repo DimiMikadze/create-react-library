@@ -1,0 +1,34 @@
+{
+  "name": "@udilia/create-react-library",
+  "version": "0.1.5",
+  "description": "Create React NPM Library with no build configuration.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/udilia/create-react-library.git",
+    "directory": "lib"
+  },
+  "bugs": {
+    "url": "https://github.com/udilia/create-react-library/issues"
+  },
+  "files": [
+    "index.js",
+    "createReactLibrary.js",
+    "utils"
+  ],
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "engines": {
+    "node": ">=8.10"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "cross-spawn": "^6.0.5",
+    "fs-extra": "^8.1.0",
+    "rimraf": "^3.0.0",
+    "validate-npm-package-name": "^3.0.0"
+  },
+  "license": "MIT"
+}

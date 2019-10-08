@@ -1,0 +1,28 @@
+.SecondExample {
+  text-align: center;
+  width: 100%;
+}
+
+.SecondExample-text {
+  color: #4b5658;
+  font-size: 20px;
+}
+
+.SecondExample-link {
+  color: #3079ab;
+  text-decoration: none;
+}
+
+.SecondExample-link:hover {
+  text-decoration: underline;
+}
+
+.SecondExample-github-link {
+  color: #3079ab;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.SecondExample-github-link:hover {
+  text-decoration: underline;
+}

@@ -1,6 +1,6 @@
 {
   "name": "@udilia/create-react-library",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Create React NPM Library with no build configuration.",
   "repository": {
     "type": "git",

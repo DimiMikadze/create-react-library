@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.2.0 ( October 9, 2019 )
+
+- Updated to `create-react-app` version 3.2.0
+
 ## 3.1.2 ( October 3, 2019 )
 
 - Updated to `create-react-app` version 3.1.2

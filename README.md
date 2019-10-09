@@ -14,6 +14,10 @@ _([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7
 
 Then open [http://localhost:3000](http://localhost:3000) to see demo library running in the browser.
 
+<p align='center'>
+<img src='https://res.cloudinary.com/dkkf9iqnd/image/upload/v1570617179/screencast-crl_fdjtyt.gif' alt='npm start'>
+</p>
+
 ## Creating a Library
 
 You’ll need to have Node 8.16.0 or Node 10.16.0 or later version on your local development machine.

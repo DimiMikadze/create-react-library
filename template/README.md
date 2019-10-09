@@ -25,6 +25,20 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 Publishes the library to NPM.
 
+## Typescript Support
+
+To add TypeScript to a Create React Library project, first install it:
+
+```sh
+npm install --save-dev typescript @types/node @types/react @types/react-dom @types/jest
+```
+or
+```
+yarn add -D typescript @types/node @types/react @types/react-dom @types/jest
+```
+
+Next, rename any file to be a TypeScript file (e.g. `src/index.js` to `src/index.tsx`) and restart your development server!
+
 ## Troubleshooting
 
 ### Usage of other libraries within your library

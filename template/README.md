@@ -25,6 +25,10 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 Publishes the library to NPM.
 
+## Typescript
+
+[Adding Typescript support](https://gist.github.com/DimiMikadze/f25e1c5c70fa003953afd40fa9042517)
+
 ## Troubleshooting
 
 ### Usage of other libraries within your library

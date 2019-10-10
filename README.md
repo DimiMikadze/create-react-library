@@ -98,6 +98,10 @@ Publishes the library to NPM.
 
 Please read our [CONTRIBUTING.md](https://github.com/udilia/create-react-library/blob/master/CONTRIBUTING.md) before submitting a Pull Request to the project.
 
+## Typescript
+
+[Adding Typescript support](https://gist.github.com/DimiMikadze/f25e1c5c70fa003953afd40fa9042517)
+
 ## Troubleshooting
 
 ### Usage of other libraries within your library

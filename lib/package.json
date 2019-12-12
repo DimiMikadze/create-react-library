@@ -4,11 +4,11 @@
   "description": "Create React NPM Library with no build configuration.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/udilia/create-react-library.git",
+    "url": "https://github.com/dimimikadze/create-react-library.git",
     "directory": "lib"
   },
   "bugs": {
-    "url": "https://github.com/udilia/create-react-library/issues"
+    "url": "https://github.com/dimimikadze/create-react-library/issues"
   },
   "files": [
     "index.js",

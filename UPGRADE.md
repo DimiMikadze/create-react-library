@@ -4,7 +4,7 @@
 
 To upgrade a library based on `create-react-library`
 
-- Clone updated `create-react-library` in a new folder `git clone https://github.com/udilia/create-react-library.git new-create-react-library`
+- Clone updated `create-react-library` in a new folder `git clone https://github.com/dimimikadze/create-react-library.git new-create-react-library`
 - Copy `config`, `public`, `scripts` folders over to your project
 - Copy `.gitignore`, `.npmignore` files over to your project
 - Copy and adapt `src/demo` folders over to your project
@@ -15,7 +15,7 @@ To upgrade a library based on `create-react-library`
 
 To upgrade `create-react-library` project
 
-- Fork [udilia/create-react-library](https://github.com/udilia/create-react-library.git) repository
+- Fork [dimimikadze/create-react-library](https://github.com/dimimikadze/create-react-library.git) repository
 - Clone your fork
 - Create a new `create-react-app` project in another folder and `eject`
 
@@ -45,4 +45,4 @@ To upgrade `create-react-library` project
 
 - Check that `yarn start`, `yarn test`, `yarn build` and `yarn demo` scripts still work and produce the same output as before.
 
-- Open a `PR` to [udilia/create-react-library](https://github.com/udilia/create-react-library.git) repository
+- Open a `PR` to [dimimikadze/create-react-library](https://github.com/dimimikadze/create-react-library.git) repository

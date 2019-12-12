@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React Library](https://github.com/udilia/create-react-library).
+This project was bootstrapped with [Create React Library](https://github.com/dimimikadze/create-react-library).
 
 All library files are located inside **src/lib** folder.
 

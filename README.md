@@ -96,7 +96,7 @@ Publishes the library to NPM.
 
 ## Contributing
 
-Please read our [CONTRIBUTING.md](https://github.com/udilia/create-react-library/blob/master/CONTRIBUTING.md) before submitting a Pull Request to the project.
+Please read our [CONTRIBUTING.md](https://github.com/dimimikadze/create-react-library/blob/master/CONTRIBUTING.md) before submitting a Pull Request to the project.
 
 ## Typescript
 
@@ -116,4 +116,4 @@ https://github.com/DimiMikadze/react-under-construction
 
 ## License
 
-[MIT License](https://github.com/udilia/create-react-library/blob/master/LICENSE.md) Copyright (c) 2019 [udilia](https://udilia.com/)
+[MIT License](https://github.com/dimimikadze/create-react-library/blob/master/LICENSE.md) Copyright (c) 2019 [Dimi Mikadze](https://dimimikadze.com/)

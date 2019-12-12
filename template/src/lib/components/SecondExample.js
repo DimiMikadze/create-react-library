@@ -18,7 +18,7 @@ const SecondExample = () => (
       className="SecondExample-github-link"
       target="_blank"
       rel="noopener noreferrer"
-      href="https://github.com/udilia/create-react-library"
+      href="https://github.com/dimimikadze/create-react-library"
     >
       Documentation
     </a>
